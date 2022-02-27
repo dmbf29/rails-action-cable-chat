@@ -1,0 +1,16 @@
+.list-group-item {
+  border: none;
+  color: #2d2222;
+  &:hover {
+    text-decoration: none;
+    color: #2d2222;
+    opacity: 0.8;
+  }
+}
+
+.list-group-item.active {
+  background-color: #fff;
+  border-color: initial;
+  color: #2d2222;
+  font-weight: bold;
+}
