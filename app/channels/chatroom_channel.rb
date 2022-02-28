@@ -3,4 +3,5 @@ class ChatroomChannel < ApplicationCable::Channel
     chatroom = Chatroom.find(params[:id])
     stream_for chatroom
   end
+
 end
